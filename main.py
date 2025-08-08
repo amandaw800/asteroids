@@ -26,6 +26,7 @@ def main():
         player.draw(screen)
 
         player.update(dt)
+        player.move(dt)
 
     
 
